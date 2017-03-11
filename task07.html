@@ -38,7 +38,6 @@
             position: relative;
             top: 25%;left:-5%;
         }
-
         #pic1div{
             margin:0;
             padding: 0;
@@ -87,8 +86,19 @@
         #SearchNW{
             margin:0;padding:0;height:340px;width:auto;
         }
+        #searchPicDiv{
+            height: inherit;
+        }
         #searchPic{
             width: 100%;
+            height: inherit;
+        }
+        #CountryDiv{
+            margin: 0;
+            padding: 0;
+            position: relative;
+            left: 20%;
+            top:-50%;
         }
         #Activity{
             height:605px;margin:0;padding:0;background-color: #F7F7F7;
@@ -98,21 +108,223 @@
             height:100%;
         }
         #ad1{
-            margin:0;padding:0;height:565px;
+            margin:0;padding:0;height:565px;background-color: yellow;
         }
         #ad2{
-            margin:0;padding:0;height:520px;
+            margin:0;padding:0;height:520px;background-color: blue;
         }
         #BeingVolunteer{
-            margin:0;padding:0;height:750px;background-color: #f7f7f7;
+            margin:0;padding:0;height:750px;background-color: #ffffff;
         }
+        #BVWord{
+            height:300px;
+            width:100%;
+            margin:0;
+            padding:0;
+        }
+        #BeingVWord{
+            color: black;
+            font-size: 20px;
+
+        }
+         .BVW{
+        text-align: center;
+        margin: 0;
+        padding:0;
+        position: relative;
+        top:40%;
+
+    }
+        #BeingVWord1{
+        color: grey;
+        font-size: 15px;
+    }
+    #BeingVWordDiv1{
+        top:50%;
+    }
+    #BVForm{
+        margin:0;
+        padding:0;
+        width:100%;
+        height: 450px;
+    }
+    #LeftWord{
+        margin:0;
+        padding:0;
+        width: 40%;
+        height:450px;
+        float: left;
+    }
+    #LW1,#LW2,#LW3,#LW4,#LW5{
+        margin:0;
+        padding:0;
+        text-align: left;
+        position: relative;
+        left: 20%;
+        width: inherit;
+    }
+    #LW2{
+        top:5%;
+    }
+    #LW3{
+        top:20%;
+    }
+    #LW4{
+        top:25%;
+    }
+    #LW5{
+        top:40%;
+    }
+    .LWword1{
+        color:black;
+
+    }
+    .LWword2{
+       color:grey;
+        font-size: small;
+        overflow: auto;
+        word-break: break-all;
+
+    }
+    #RightForm{
+        margin:0;
+        padding:0;
+        width: 60%;
+        height:450px;
+        float: right;
+    }
+    #Name{
+          width: 310px;
+        height: 40px;
+        background-color: #ededef;
+        border: 0;
+    }
+    #Age{
+        width: 310px;
+        height: 40px;
+        background-color: #ededef;
+        border: 0;
+        position: relative;
+        left: 20px;
+    }
+    #Contact{
+        width: 310px;
+        height: 40px;
+        background-color: #ededef;
+        border: 0;
+        top:20px;
+        position: relative;
+    }
+    #Adress{
+        width: 310px;
+        height: 40px;
+        background-color: #ededef;
+        border: 0;
+        left:20px;
+        position: relative;
+        top:20px;
+    }
+    #Description{
+        width: 640px;
+        height: 120px;
+        background-color: #ededef;
+        border:0;
+        top:40px;
+        position: relative;
+    }
+    #Submit{
+        width: 640px;
+        height:40px;
+        background-color: #ededef;
+        border: 0;
+        top:60px;
+        position: relative;
+    }
         #ContactUs{
-            margin:0;padding:0;height:360px;background-color: #515463;
+            margin:0;padding:0;height:360px;background-color: #34373e;
+        }
+        #CU{
+            color: white;
+            font-size: 30px;
+            position: relative;
+            height:50%;
         }
         #Footer{
-            margin:0;padding:0;height:60px;background-color: #484858;
+            margin:0;padding:0;height:60px;background-color: #2f3039;
         }
+        .FooterWord{
+            color:white;
+            font-size: 15px;
+        }
+        #2016NewW{
+            position:absolute;
+            left:-500px;
+            top:-500px;
+            width:500px;
+            height:500px;
 
+        }
+        .CUU{
+            margin:0;
+            padding:0;
+            text-align: center;
+            position: relative;
+            top:20%;
+        }
+        #CUword{
+            color: white;
+        }
+        #FormDiv{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            position: relative;
+            top:25%;
+        }
+        #Input1{
+            width: 430px;
+            padding: 0;
+            border:0;
+        }
+        #Input2{
+            width:80px;
+            padding: 0;
+            background-color: #888888;
+            border: 0;
+        }
+        .Input{
+            height:40px;
+        }
+        .Icon{
+            margin:0;
+            padding: 0;
+
+        }
+        #qq{
+            position: relative;
+            top:30%;
+            left: 45%;display:inline
+        }
+        #sina{
+            position: relative;
+            top:30%;
+            left: 45%;display:inline
+        }
+        #twitter{
+            position: relative;
+            top:30%;
+            left: 45%;display:inline
+        }
+        #global{
+            position: relative;
+            top:30%;
+            left: 45%;display:inline
+        }
+        #BackToTop{
+            position: relative;
+            left:85%;
+            top:50%;
+        }
     </style>
 </head>
 <body>
@@ -140,7 +352,7 @@
 </nav>
     </div>
 </header>
-<div id="Time"><!-- Time of new life -->
+    <div id="Time"><!-- Time of new life -->
     <div id="pic1div">
         <img src="pic11.jpg" id="pic1" height="100%" width="100%">
         <b id="TW">Time of new life</b>
@@ -152,14 +364,43 @@
     </div>
 
 </div>
-<div id="BuildNW">
+    <div id="BuildNW">
 <img src="nonono.jpg">
 </div>
     <div id="AboutNW">
 <img src="AboutNW.jpg">
     </div>
     <div id="SearchNW" >
-        <img src="search.jpg" id="searchPic">
+        <div id="searchPicDiv">
+            <img src="search.jpg" id="searchPic">
+        </div>
+        <div id="CountryDiv">
+            <select title="country" >
+                <option value ="China">China</option>
+                <option value ="America">America</option>
+                <option value="Japan">Japan</option>
+                <option value="Russia">Russia</option>
+            </select>
+        </div>
+        <div id="ProvinceDiv">
+            <select title="Province">
+                <option value ="volvo">Volvo</option>
+                <option value ="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+        </div>
+        <div id="CityDiv">
+            <select title="City">
+                <option value ="volvo">Volvo</option>
+                <option value ="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+        </div>
+        <div id="SearchDiv">
+
+        </div>
 
     </div>
     <div id="Activity">
@@ -172,13 +413,74 @@
 
     </div>
     <div id="BeingVolunteer">
+     <div id="BVWord">
+         <div id="BeingVWordDiv" class="BVW">
+             <b id="BeingVWord" >
+                 成为我们的志愿者
+             </b>
+         </div>
+         <div id="BeingVWordDiv1" class="BVW">
+             <b id="BeingVWord1">
+                 新世界的大家庭需要每一个爱生活的人加入，如果你够年轻，有激情，有火李，那就加入我们，一起改变生活，不要犹豫
+             </b>
+         </div>
+     </div>
+     <div id="BVForm">
+            <div id="LeftWord">
+                <div id="LW1">
+                <b id="LW1word" class="LWword1">新世界志愿者协议</b>
+                </div>
+                <div id="LW2">
+                <b id="LW2word" class="LWword2">
+                数据库还是尽快给速度加快华东数控加工和好久开始反抗集散地和刷卡积分的都符合东方的风格和地方和
+                </b>
+                </div>
+                <div id="LW3">
+                    <b id="LW3word" class="LWword1">
+                  新世界志愿者权利
+                    </b>
+                </div>
+                <div id="LW4">
+                    <b id="LW4word" class="LWword2">
+还是大家开个会收到捐款厉害老师肯定更好 考试大纲和老师的时刻记得盖好稍等东方红烦得很地方好地方
+                    </b>
+                </div>
+                <div id="LW5">
+                    <b id="LW5word" class="LWword1">
+更多条款
+                    </b>
+                </div>
 
+            </div>
+            <div id="RightForm">
+                <input type="text" value="  姓名：" id="Name" title="姓名">
+                <input type="text" value="  年龄：" id="Age" title="年龄">
+                <input type="text" value="  联系方式：" id="Contact" title="联系方式">
+                <input type="text" value="  联系地址：" id="Adress" title="联系地址">
+                <input type="text" value="  请简单描述您梦想的生活：" id="Description" title="描述">
+                <input type="submit" value="提交申请" id="Submit">
+            </div>
+     </div>
     </div>
-    <div id="ContactUs">
 
+    <div id="ContactUs">
+      <div class="CUU"><b id="CU">联系我们</b></div>
+        <div class="CUU"><b id="CUword">为了更好的获取我们的产品资讯，您可以留下邮箱更快的订阅我们的产品资讯，也可以通过以下方式关注我们</b></div>
+        <div id="FormDiv">
+            <form action="action_page.php">
+            <input type="email" name="email" placeholder="someone@email.com" class="Input" id="Input1">
+            <input type="submit" value="提交" class="Input" id="Input2">
+        </form>
+        </div>
+        <div id="qq" class="Icon"><a href=""><img src="qq.jpg"> </a> </div> &nbsp &nbsp
+        <div id="sina" class="Icon"><a href=""><img src="sina.jpg"> </a> </div> &nbsp &nbsp
+        <div id="twitter" class="Icon"><a href=""><img src="twiter.jpg"></a>  </div> &nbsp &nbsp
+        <div id="global" class="Icon"><a href=""><img src="global.jpg"></a> </div>
     </div>
     <div id="Footer">
+        <b  class="FooterWord" id="2016NewW">@2016新世界</b>
 
+        <b id="BackToTop" class="FooterWord">Back to top</b>
     </div>
 
 
